@@ -1,0 +1,245 @@
+  h1 {
+  align-items: center;
+    overflow: hidden;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+  }
+
+  p {
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  
+  h2 {
+    align-items: center;
+    color: #e98809;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 700px;
+  }
+
+  main {
+    padding: 20px;
+}
+
+  header {
+    position: fixed;
+    width: 100%;
+    height: 12%;
+    background-color: rgba(193, 193, 186, 0.5);
+    color: #fff;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: background-color 0.5s ease;
+}
+
+ .GT3 {
+  width: 200px;
+  height: 125px;
+  margin-left: 15px;
+  margin-top: 10px;
+ }
+  
+  body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    transition: background-image 0.5s;
+        
+ }
+
+ .imagem1 {
+  background-image: url('p3.webp');
+}
+.imagem2 {
+  background-image: url("https://wallpapercosmos.com/w/full/e/3/5/9560-3840x2160-desktop-4k-porsche-911-background-photo.jpg");
+}
+.imagem3 {
+  background-image: url("img.jpg");
+}
+
+.Video {
+  width: 350;
+  height: 330;
+}
+
+.imagens {
+  width: 260;
+  height: 275;
+}
+
+.imgs {
+  width: 400;
+  height: 250;
+}
+
+.imagem-zoom {
+    transition: transform 0.3s; 
+}
+
+.imagem-zoom:hover {
+    transform: scale(0.9); 
+}
+.image-zoom {
+  transition: transform 0.3s; 
+}
+
+.image-zoom:hover {
+  transform: scale(0.9); 
+}
+
+.nomes {
+  font-size: 15px;
+  color: beige;
+}
+
+.menu-btn {
+      cursor: pointer;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      position: fixed;
+      left: 20px;
+      top: 14px;
+      z-index: 2;
+  }
+  
+.bar {
+      height: 5px;
+      width: 30px;
+      background-color: #fff;
+      margin: 6px 0;
+      transition: 0.4s;
+  }
+  
+.menu {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+  }
+  
+.menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+  
+.menu li {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #555;
+  }
+  
+.menu a {
+  text-decoration: none;
+  color: #c4c1c1; 
+  font-size: 18px;
+  display: block;
+  transition: 0.3s;
+  }
+  
+.menu a:hover {
+      color: #e98809;
+  }
+  
+.content {
+      margin-left: 250px;
+      padding: 20px;
+      transition: margin-left 0.5s;
+  }
+
+  .carreiragt {
+  width: 200px;
+  height: 150px;
+  margin-left: 15px;
+  margin-top: -10px;
+  }
+
+  .logo2 {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .p918 {
+    width: 205px;
+    height: 105px;
+    margin-left: 15px;
+    padding-top: 30px;
+    }
+
+    .hidden {
+      display: none;
+  }
+
+  .divv {
+    margin-top: -15;
+    width: 140px;
+    height: 95px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 123, 0, 0.732);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #000000;
+  }
+
+  .pdiiv {
+    margin-left: 93%;
+    margin-top: 30;
+  }
+
+
+.logoo {
+  width: 100px;
+  height: 70px;
+}
+
+.barra-vertical {
+  position: fixed;
+  top: 2.8;
+  right: -200px;
+  height: 100%; /* 100% da altura da viewport */
+  width: 100px; /* Largura da barra vertical */
+  background: linear-gradient(rgb(111, 115, 115) 11.4%, rgb(51, 50, 50) 11.4%,rgb(51, 50, 50) 100%);
+  transition: right 0.3s;
+}
+
+.imagem-toggle {
+  position: fixed;
+  top: 20px;
+  right: 28px;
+  width: 45px; 
+  height: 45px; 
+  cursor: pointer;
+}
+
+.link-imagem img {
+  border-radius: 3px;
+  margin-top: 100px;
+}
+
+
+
+
+
