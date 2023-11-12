@@ -7,8 +7,8 @@ h1 {
   
     p {
       color: rgb(255, 255, 255);
-      font-size: 21px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-size: 23px;
+      font-family:'Roboto Condensed', sans-serif;
       
     }
   
@@ -18,11 +18,21 @@ h1 {
       color: #e98809;
       white-space: nowrap;
       overflow: hidden;
-      font-size: 35px;
-      font-family:Georgia, 'Times New Roman', Times, serif;
-      padding-top: 700px;
+      font-size: 50px;
+      font-family: 'Roboto Condensed', sans-serif;
+      padding-top: 50px;
     }
   
+    h3 {
+      align-items: center;
+      color: #e98809;
+      white-space: nowrap;
+      overflow: hidden;
+      font-size: 40px;
+      font-family: 'Roboto Condensed', sans-serif;
+      padding-top: 30px;
+}
+
     main {
       padding: 20px;
   }
@@ -30,8 +40,8 @@ h1 {
     header {
       position: fixed;
       width: 100%;
-      height: 12%;
-      background-color: rgba(193, 193, 186, 0.5);
+      height: 10%;
+      background-color: rgb(111, 115, 115);
       color: #fff;
       text-align: center;
       top: 0;
@@ -40,6 +50,7 @@ h1 {
       z-index: 1000;
       transition: background-color 0.5s ease;
   }
+
   
    .GT3 {
     width: 200px;
@@ -55,16 +66,6 @@ h1 {
       transition: background-image 0.5s;
           
    }
-  
-   .imagem1 {
-    background-image: url('p3.webp');
-  }
-  .imagem2 {
-    background-image: url("https://wallpapercosmos.com/w/full/e/3/5/9560-3840x2160-desktop-4k-porsche-911-background-photo.jpg");
-  }
-  .imagem3 {
-    background-image: url("img.jpg");
-  }
   
   .Video {
     width: 350;
@@ -97,8 +98,9 @@ h1 {
   }
   
   .nomes {
-    font-size: 15px;
-    color: beige;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    color: #fff;
   }
   
   .menu-btn {
@@ -221,7 +223,7 @@ h1 {
     right: -200px;
     height: 100%; /* 100% da altura da viewport */
     width: 100px; /* Largura da barra vertical */
-    background: linear-gradient(rgb(145, 145, 139) 11.4%, rgb(51, 50, 50) 11.4%,rgb(51, 50, 50) 100%);
+    background: linear-gradient(rgb(111, 115, 115) 9.7%, rgb(51, 50, 50) 9.7%,rgb(51, 50, 50) 100%);
     transition: right 0.3s;
   }
   
