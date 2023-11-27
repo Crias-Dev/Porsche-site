@@ -221,8 +221,8 @@ h1 {
     position: fixed;
     top: 2.8;
     right: -200px;
-    height: 100%; /* 100% da altura da viewport */
-    width: 100px; /* Largura da barra vertical */
+    height: 100%; 
+    width: 100px;
     background: linear-gradient(rgb(111, 115, 115) 9.7%, rgb(51, 50, 50) 9.7%,rgb(51, 50, 50) 100%);
     transition: right 0.3s;
   }

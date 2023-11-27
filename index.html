@@ -94,11 +94,15 @@
                     A Porsche continua a ser uma das marcas mais desejadas no mundo dos automóveis, e sua história é marcada pela paixão pela engenharia, design e inovação. <br>A empresa continua a desenvolver carros esportivos de alto desempenho que agradam entusiastas de todo o mundo.
                 <img src="Porsche-logo-evolution-removebg-preview.png" >
                 </p>
-                <br><br>
-                <p>
-                <a href="formulario.html">Quero fazer parte da familia Porsche</a> 
-                </p>
+                <br>
+                <img id="btnSubirTopo" src="output-onlinepngtools.png" class="imgu" onclick="subirTopo()">
 
+                <script>
+                    function subirTopo() {
+                        document.body.scrollTop = 0; 
+                        document.documentElement.scrollTop = 0; 
+                    }
+                </script>
             </center>
         </main>
         <script>
@@ -151,21 +155,34 @@
                 var header = document.querySelector('header');
                 var scrollPosition = window.scrollY;
     
-                // Calcula a opacidade com base na posição de rolagem
+
                 var opacity = Math.min(1, 0.5 + scrollPosition / 500);
-    
-                // Ajusta a cor de fundo com base na opacidade calculada
+
                 header.style.backgroundColor = "rgba(111, 115, 115, " + opacity + ")";
     
-                // Verifica se a pessoa está rolando para cima
                 if (scrollPosition < lastScrollPosition) {
-                    // Caso esteja rolando para cima, a cor de fundo volta a 0.5
+
                     header.style.backgroundColor = "rgba(193, 193, 186, 0.5)";
                 }
-    
-                // Atualiza a posição de rolagem
+
                 lastScrollPosition = scrollPosition;
             });
+        </script>
+        <script>
+            window.onscroll = function() {
+    mostrarOcultarBotao();
+};
+
+function mostrarOcultarBotao() {
+    var botaoSubir = document.getElementById("btnSubirTopo");
+
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        botaoSubir.style.display = "block";
+    } else {
+        botaoSubir.style.display = "none";
+    }
+}
+
         </script>
     </body>
 </html>
